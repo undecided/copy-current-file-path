@@ -36,17 +36,15 @@
         }
     },
     "scripts": {
-        "postinstall": "node ./node_modules/vscode/bin/install",
         "test": "node ./node_modules/vscode/bin/test"
     },
     "devDependencies": {
         "@types/mocha": "^5.2.7",
         "@types/node": "^12.12.6",
+        "@types/vscode": "^1.17.0",
         "eslint": "^6.6.0",
-        "mocha": "^6.2.2",
+        "mocha": "^10.4.0",
         "typescript": "^3.7.2",
-        "vscode": "^1.1.37"
-    },
-    "dependencies": {
+        "vscode-test": "^1.6.1"
     }
 }
