@@ -11,3 +11,6 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
     - ![Demo configuration](https://i.imgur.com/fRp5GhTh.gif)
 - Fix dependencies vulnerabilities
 - Add demo
+
+## [0.0.4]
+- Use vscode's built-in clipboard management, instead of relying on third-party dependency
